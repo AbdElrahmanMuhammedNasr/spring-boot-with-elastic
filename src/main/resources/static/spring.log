@@ -1,0 +1,37 @@
+2022-07-15 21:27:28.160  INFO 21244 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.15 on abdo-40 with PID 21244 (/home/abdo/Desktop/elas/demo/target/classes started by abdo in /home/abdo/Desktop/elas/demo)
+2022-07-15 21:27:28.171  INFO 21244 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-07-15 21:27:28.934  INFO 21244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 21:27:28.937  INFO 21244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 21:27:33.981  INFO 21244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2022-07-15 21:27:34.222  INFO 21244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 223 ms. Found 1 Elasticsearch repository interfaces.
+2022-07-15 21:27:36.164  INFO 21244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2022-07-15 21:27:36.200  INFO 21244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2022-07-15 21:27:41.339  INFO 21244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 21:27:41.428  INFO 21244 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 21:27:41.438  INFO 21244 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-15 21:27:42.296  INFO 21244 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 21:27:42.302  INFO 21244 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 13362 ms
+2022-07-15 21:27:47.594  INFO 21244 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 21:27:52.665  INFO 21244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 21:27:52.864  INFO 21244 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 28.245 seconds (JVM running for 35.923)
+2022-07-15 21:31:13.981  INFO 21244 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-15 21:31:13.992  INFO 21244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-15 21:31:13.999  INFO 21244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2022-07-15 21:31:14.176  INFO 21244 --- [http-nio-8080-exec-1] c.example.demo.Controller.ElaController  : Welcome to JavaInUseFri Jul 15 21:31:14 EET 2022
+2022-07-15 21:31:14.176  WARN 21244 --- [http-nio-8080-exec-1] c.example.demo.Controller.ElaController  : Welcome to JavaInUseFri Jul 15 21:31:14 EET 2022
+2022-07-15 21:31:16.726  INFO 21244 --- [http-nio-8080-exec-2] c.example.demo.Controller.ElaController  : Welcome to JavaInUseFri Jul 15 21:31:16 EET 2022
+2022-07-15 21:31:16.727  WARN 21244 --- [http-nio-8080-exec-2] c.example.demo.Controller.ElaController  : Welcome to JavaInUseFri Jul 15 21:31:16 EET 2022
+2022-07-15 21:31:18.972  INFO 21244 --- [http-nio-8080-exec-3] c.example.demo.Controller.ElaController  : Welcome to JavaInUseFri Jul 15 21:31:18 EET 2022
+2022-07-15 21:31:18.973  WARN 21244 --- [http-nio-8080-exec-3] c.example.demo.Controller.ElaController  : Welcome to JavaInUseFri Jul 15 21:31:18 EET 2022
+2022-07-15 21:36:50.615  INFO 21244 --- [http-nio-8080-exec-5] c.example.demo.Controller.ElaController  : Welcome to JavaInUseFri Jul 15 21:36:50 EET 2022
+2022-07-15 21:36:50.618  WARN 21244 --- [http-nio-8080-exec-5] c.example.demo.Controller.ElaController  : Welcome to JavaInUseFri Jul 15 21:36:50 EET 2022
+2022-07-15 21:36:53.401  INFO 21244 --- [http-nio-8080-exec-6] c.example.demo.Controller.ElaController  : Welcome to JavaInUseFri Jul 15 21:36:53 EET 2022
+2022-07-15 21:36:53.404  WARN 21244 --- [http-nio-8080-exec-6] c.example.demo.Controller.ElaController  : Welcome to JavaInUseFri Jul 15 21:36:53 EET 2022
+2022-07-15 21:36:54.651  INFO 21244 --- [http-nio-8080-exec-7] c.example.demo.Controller.ElaController  : Welcome to JavaInUseFri Jul 15 21:36:54 EET 2022
+2022-07-15 21:36:54.652  WARN 21244 --- [http-nio-8080-exec-7] c.example.demo.Controller.ElaController  : Welcome to JavaInUseFri Jul 15 21:36:54 EET 2022
+2022-07-15 21:44:29.857  INFO 21244 --- [http-nio-8080-exec-9] c.example.demo.Controller.ElaController  : Welcome to JavaInUseFri Jul 15 21:44:29 EET 2022
+2022-07-15 21:44:29.858  WARN 21244 --- [http-nio-8080-exec-9] c.example.demo.Controller.ElaController  : Welcome to JavaInUseFri Jul 15 21:44:29 EET 2022
+2022-07-15 21:44:30.788  INFO 21244 --- [http-nio-8080-exec-10] c.example.demo.Controller.ElaController  : Welcome to JavaInUseFri Jul 15 21:44:30 EET 2022
+2022-07-15 21:44:30.791  WARN 21244 --- [http-nio-8080-exec-10] c.example.demo.Controller.ElaController  : Welcome to JavaInUseFri Jul 15 21:44:30 EET 2022
+2022-07-15 21:44:33.895  INFO 21244 --- [http-nio-8080-exec-1] c.example.demo.Controller.ElaController  : Welcome to JavaInUseFri Jul 15 21:44:33 EET 2022
+2022-07-15 21:44:33.898  WARN 21244 --- [http-nio-8080-exec-1] c.example.demo.Controller.ElaController  : Welcome to JavaInUseFri Jul 15 21:44:33 EET 2022
